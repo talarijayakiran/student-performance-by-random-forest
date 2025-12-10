@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Raw dataset (never push real data)
+data/
+
+# Model files
+models/
+
+# Reports (keep PDF only)
+reports/*.png
+reports/*.jpg
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
